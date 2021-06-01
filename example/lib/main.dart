@@ -34,7 +34,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    _future = get(url);
+    _future = get(Uri.parse(url));
   }
 
   @override
